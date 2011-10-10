@@ -1,9 +1,10 @@
 <div class="image1"><%= image_tag 'nisheet.jpg',:height => '170',:width => '180' %></div>
+
 <div class="image1"><%= image_tag 'asis.jpg',:height => '220',:width => '180' %></div>
-<div class="image1"><%= image_tag 'ashish.jpg',:height => '300',:width => '180' %></div>
+
+<div class="image1"><%= link_to image_tag('ashish.jpg',:height => '300',:width => '180'),:controller => 'home',:action => 'ashish' %></div>
+
 <div class="image1"><%= image_tag 'udit.jpg',:height => '220',:width => '180' %></div>
+
 <div class="image1"><%= image_tag 'bishmeet.jpg',:height => '170',:width => '180' %></div>
 
-<div class ="name">
-  <%= @person %>
-</div>

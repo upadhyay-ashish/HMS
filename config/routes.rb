@@ -3,6 +3,8 @@ Demo::Application.routes.draw do
 
   get "home/show"
 
+  get "home/ashish"
+
   resources :users
 
   # The priority is based upon order of creation:
